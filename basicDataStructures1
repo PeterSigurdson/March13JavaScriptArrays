@@ -1,0 +1,26 @@
+let studentRecord1 = [
+    "StudentName", "Joe",
+    "StudentID", "111",
+    "ProgramGroup", "CSAT"
+];
+
+let studentRecord2 = [
+    "StudentName", "Mary",
+    "StudentID", "222",
+    "ProgramGroup", "EBMT"
+];
+
+let studentRecord3 = [
+    "StudentName", "Steve",
+    "StudentID", "333",
+    "ProgramGroup", "CPCT"
+];
+
+let classRecord = [
+    "ClassName",
+    "studentRecord"
+];
+
+classRecord[0, 1] = studentRecord1
+
+console.log(classRecord[0, 1]);
